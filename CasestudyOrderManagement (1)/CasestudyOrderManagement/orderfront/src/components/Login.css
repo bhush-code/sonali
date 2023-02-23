@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+
+body {
+  background: #1cf9d4 !important;
+  min-height: 100vh;
+  display: flex;
+  font-weight: 400;
+  font-family: 'Fira Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,label,span {
+  font-weight: 500;
+  font-family: 'Fira Sans', sans-serif;
+}
+body, html, .App, #root, .auth-wrapper {
+  width: 100%;
+  height: 100%;
+}
+.navbar-light {
+  background-color: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+}
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  padding: 0px 100px 0px px;
+  margin : 10rem 5rem 10rem 0rem;
+}
+.auth-inner {
+  width: 650px;
+  
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 75px;
+  border-radius: 15px;
+  transition: all .3s;
+}
+.auth-wrapper .form-control:focus {
+  border-color: #167bff;
+  box-shadow: none;
+}
+.auth-wrapper h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+
+.btn-group {
+  margin-right: 1rem*3;
+}
+.auth-wrapper1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+  padding: 0px 50px 0px px;
+  margin : 5rem 5rem 10rem 40rem;
+}
+
+.auth-inner1 {
+  width: 700px;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 75px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 50px 55px 45px 75px;
+  border-radius: 15px;
+  transition: all .3s;
+}
+
+  .details{
+    background-color:white;
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    border-collapse: collapse;
+    border:1 px solid;
+    height:50px
+  
+  }
+
+  
+  .auth-wrapper3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    padding: 0px 50px 0px px;
+    margin : 10rem 5rem 10rem 10rem;
+  }
+  
+  .auth-inner3 {
+    width: 700px;
+    margin: auto;
+    background: #ffffff;
+    box-shadow: 75px 14px 80px rgba(34, 35, 58, 0.2);
+    padding: 50px 55px 45px 75px;
+    border-radius: 15px;
+    transition: all .3s;
+  }
